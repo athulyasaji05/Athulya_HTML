@@ -160,7 +160,7 @@
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
         <ul class="list-unstyled">
                 <li class="active"><a href="index.html"> <i class="icon-home"></i>Home </a></li>
-                <li><a href="tables.html"> <i class="icon-grid"></i>Tables </a></li>
+                <li><a href="{{url('view_category')}}"> <i class="icon-grid"></i>Category </a></li>
                 <li><a href="charts.html"> <i class="fa fa-bar-chart"></i>Charts </a></li>
                 <li><a href="forms.html"> <i class="icon-padnote"></i>Forms </a></li>
                 <li><a href="#exampledropdownDropdown" aria-expanded="false" data-toggle="collapse"> <i class="icon-windows"></i>Example dropdown </a>
@@ -568,13 +568,13 @@
       </div>
     </div>
     <!-- JavaScript files-->
-    <script src="{{asset('/admin/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{asset('/admin/vendor/popper.js/umd/popper.min.js')}}"> </script>
-    <script src="{{asset('/admin/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
-    <script src="{{asset('/admin/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
-    <script src="{{asset('/admin/vendor/chart.js/Chart.min.js')}}"></script>
-    <script src="{{asset('/admin/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
-    <script src="{{asset('/admin/js/charts-home.js')}}"></script>
-    <script src="{{asset('/admin/js/front.js')}}"></script>
+    <script src="{{asset('/admincss/vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{asset('/admincss/vendor/popper.js/umd/popper.min.js')}}"> </script>
+    <script src="{{asset('/admincss/vendor/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('/admincss/vendor/jquery.cookie/jquery.cookie.js')}}"> </script>
+    <script src="{{asset('/admincss/vendor/chart.js/Chart.min.js')}}"></script>
+    <script src="{{asset('/admincss/vendor/jquery-validation/jquery.validate.min.js')}}"></script>
+    <script src="{{asset('/admincss/js/charts-home.js')}}"></script>
+    <script src="{{asset('/admincss/js/front.js')}}"></script>
   </body>
 </html>
