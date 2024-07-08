@@ -63,10 +63,11 @@
 
 <div class="container">
     <h1>ADD CATEGORY</h1>
-    <form action="{{url('add_category')}}" method=post>
+    <form action="{{url('add_category')}}" method="POST">
+        @csrf
         <div class="form-group">
             <label for="category-name">Category Name</label>
-            <input type="text" id="category-name" name="category_name" required>
+            <input type="text" id="category-name" name="categoryname" required>
         </div>
         <button type="submit" class="btn">ADD</button>
     </form>

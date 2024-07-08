@@ -20,8 +20,8 @@ class AdminController extends Controller
     public function add_category(Request $request)
     {
      $category=new category();
-     $category->category_name=$request->category;
-     $category=save();
+     $category->category_name=$request->categoryname;
+     $category->save();
      return redirect()->back()->with('message',"Category added successfully");
     }
 }
