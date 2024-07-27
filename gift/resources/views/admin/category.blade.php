@@ -51,12 +51,35 @@
             border-radius: 4px;
             cursor: pointer;
             text-align: center;
-            width: 100%;
+            width: 40%;
             font-size: 16px;
         }
         .btn:hover {
             background-color: #0056b3;
         }
+        .table_deg
+        {
+            text-align: center;
+            marin: auto;
+            border: 2px solid yellowgreen;
+            margin-top: 50px;
+            width: 400px;
+        }
+        th
+        {
+            background-color: skyblue;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            color: blue;
+        }
+        td
+        {
+            color: black;
+            padding: 10x;
+            border: 1px solid skyblue;
+        }
+
     </style>
 </head>
 <body>
@@ -72,6 +95,27 @@
         <button type="submit" class="btn">ADD</button>
     </form>
 </div>
+
+<div>
+    <table class="table_deg">
+        <tr> 
+            <th>Category Name</th>
+            <th>Delete</th>
+            <th>Edit</th>
+    </tr>
+    @foreach($data as $data)
+    <tr>
+        <td>{{$data->category_name}}</td>
+        <td>
+                <a class="btn btn-success" href="{{ url('edit_category', $data->id) }}">Edit</a>
+            </td>
+            <td>
+                <a class="btn btn-danger" href="{{ url('delete_category', $data->id) }}">Delete</a>
+            </td>
+    </tr>
+    @endforeach
+    </table>
+    </div>
 
 </body>
 </html>

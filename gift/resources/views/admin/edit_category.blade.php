@@ -2,6 +2,8 @@
 <html>
   <head> 
    @include("admin.admincss")
+
+   
   </head>
   <body>
     @include("admin.adminheader")
@@ -12,7 +14,14 @@
         <div class="page-header">
           <div class="container-fluid">
 
-            @include("admin.adminbody")
+            <div>
+                <h1>Update Category</h1>
+                <form action="{{ url('update_category', $data->id) }}" method="POST">
+                @csrf
+                    <input type="text" name="category" value="{{$data->category_name}}">
+                    <input class="btn btn-primary" type="submit" value="Update Category">
+</form>
+</div>
             
          </div>
            
