@@ -14,6 +14,14 @@ Route::get('edit_category/{id}', [AdminController::class, 'edit_category']);
 Route::post('update_category/{id}', [AdminController::class, 'update_category']);
 
 
+Route::get('add_product', [AdminController::class, 'add_product']);
+Route::post('upload_product', [AdminController::class, 'upload_product']);
+Route::get('view_product', [AdminController::class, 'view_product']);
+Route::get('delete_product/{id}', [AdminController::class, 'delete_product']);
+Route::get('update_product/{id}', [AdminController::class, 'update_product']);
+Route::post('edit_product/{id}', [AdminController::class, 'edit_product']);
+
+
 
 
 Route::get('/dashboard', function () {

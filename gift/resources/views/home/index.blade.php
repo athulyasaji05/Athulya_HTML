@@ -14,7 +14,7 @@
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
   <title>
-    Giftos
+  Evergreen Enclave 
   </title>
 
   <!-- slider stylesheet -->
@@ -36,7 +36,7 @@
       <nav class="navbar navbar-expand-lg custom_nav-container ">
         <a class="navbar-brand" href="index.html">
           <span>
-            Giftos
+           EVERGREEN ENCLAVE
           </span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,11 +106,10 @@
                     <div class="detail-box"> 
                       <h1>
                         Welcome To Our <br>
-                        Gift Shop
+                        Plant Shop
                       </h1>
                       <p>
-                        Sequi perspiciatis nulla reiciendis, rem, tenetur impedit, eveniet non necessitatibus error distinctio mollitia suscipit. Nostrum fugit doloribus consequatur distinctio esse, possimus maiores aliquid repellat beatae cum, perspiciatis enim, accusantium perferendis.
-                      </p>
+                      Timeless beauty and year-round greenery, delivered right to your doorstep. Experience the joy of lush, lasting plants that bring nature’s magic into your home.          </p>
                       <a href="">
                         Contact Us
                       </a>
@@ -141,7 +140,7 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Latest Products
+          Latest Plants
         </h2>
       </div>
       <div class="row">
@@ -153,7 +152,7 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Ring
+                Marigold 
                 </h6>
                 <h6>
                   Price
@@ -178,12 +177,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Watch
+                Hibiscus
                 </h6>
                 <h6>
                   Price
                   <span>
-                    $300
+                    $200
                   </span>
                 </h6>
               </div>
@@ -203,12 +202,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Teddy Bear
+                Snake Plant
                 </h6>
                 <h6>
                   Price
                   <span>
-                    $110
+                    $830
                   </span>
                 </h6>
               </div>
@@ -228,12 +227,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Flower Bouquet
+                Spider Plant
                 </h6>
                 <h6>
                   Price
                   <span>
-                    $45
+                    $2075
                   </span>
                 </h6>
               </div>
@@ -253,12 +252,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Teddy Bear
+                Peace Lily
                 </h6>
                 <h6>
                   Price
                   <span>
-                    $95
+                    $1660
                   </span>
                 </h6>
               </div>
@@ -278,7 +277,7 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Flower Bouquet
+                Rose
                 </h6>
                 <h6>
                   Price
@@ -303,7 +302,7 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Watch
+                Philodendron
                 </h6>
                 <h6>
                   Price
@@ -328,12 +327,12 @@
               </div>
               <div class="detail-box">
                 <h6>
-                  Ring
+                Mint
                 </h6>
                 <h6>
                   Price
                   <span>
-                    $450
+                    $45
                   </span>
                 </h6>
               </div>
@@ -348,7 +347,7 @@
       </div>
       <div class="btn-box">
         <a href="">
-          View All Products
+          View All Plants
         </a>
       </div>
     </div>
@@ -439,8 +438,7 @@
               ABOUT US
             </h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
-            </p>
+            Welcome to Evergreen Enclave—your go-to online nursery for vibrant, high-quality plants. We bring nature to your doorstep with a curated selection of indoor and outdoor greenery that enhances any space. Our mission is to make gardening simple and enjoyable, offering expert advice and top-notch service. Discover the joy of lush, enduring plants with us and transform your home into a green sanctuary.         </p>
           </div>
           <div class="col-md-6 col-lg-3">
             <div class="info_form ">
@@ -460,8 +458,7 @@
               NEED HELP
             </h6>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
-            </p>
+            Have questions or need assistance? Our friendly team is here to help! Contact us via [email/phone] or check our FAQs for quick answers.           </p>
           </div>
           <div class="col-md-6 col-lg-3">
             <h6>
@@ -470,15 +467,15 @@
             <div class="info_link-box">
               <a href="">
                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <span> Gb road 123 london Uk </span>
+                <span>Kalamassery Ernakulam </span>
               </a>
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <span>+01 12345678901</span>
+                <span>+91 8384091197</span>
               </a>
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
-                <span> demo@gmail.com</span>
+                <span> plants@gmail.com</span>
               </a>
             </div>
           </div>
