@@ -8,7 +8,7 @@
     {
         display: flex;
         justify-content: center;
-        alaign-items: center;
+        align-items: center;
         padding: 30px;
     }
 
@@ -21,12 +21,9 @@
 </head>
 <body>
   <div class="hero_area">
-    <!-- header section strats -->
+    
     @include('home.header')
-    <!-- end header section -->
-    <!-- slider section -->
-     
-     <!-- end slider section -->
+    
   </div>
 
 
@@ -81,14 +78,7 @@
   </section>
 
 
-  <!-- end hero area -->
-   <!-- shop section -->
   
-  <!-- end shop section -->
-  <!-- contact section -->
-  
-  <!-- end contact section -->
-  <!-- info section -->
   @include('home.footer')
 </body>
 </html>
